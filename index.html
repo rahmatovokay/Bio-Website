@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru" class="dark-theme">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="rahmatov" />
+  <meta name="keywords" content="rahmatov, rahmatovmod, рахматов, рахматов мод, рахматов бот, телеграм бизнес бот рахматов мод, тг бизнес мод" />
+  <meta name="robots" content="all" />
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="194x194" href="assets/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+  <link rel="manifest" href="/assets/site.webmanifest">
+  <meta name="apple-mobile-web-app-title" content="rahmatov">
+  <meta name="application-name" content="rahmatov">
+  <meta name="msapplication-TileColor" content="#a5e7e3">
+  <meta name="theme-color" content="#a5e7e3">
+  <title>• rahmatov •</title>
+</head>
+
+<body>
+  <div class="snowflakes" aria-hidden="true">
+    <div class="snowflake">
+      <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+      <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+      <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+      <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+      <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+      <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+      <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+      <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+      <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+      <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+      <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+      <div class="inner">❅</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="profile-photo">
+        <img src="assets/avatar.jpg" alt="Фото профиля">
+    </div>
+
+    <h1 class="himsg">Рахматов ?.</h1>
+    <div class="typewriter">
+      <h3>Разработчик • Chill • Ботодел</h3>
+    </div>
+
+    <div class="tabs">
+        <button class="tab active" data-tab="main">Основное</button>
+        <button class="tab" data-tab="other">Различное</button>
+    </div>
+
+    <hr class="tabs-separator">
+
+    <div class="tab-content" id="main">
+      <a href="https://t.me/rahmatov_owner" class="tab-item">
+          <div class="tab-image">
+              <img src="assets/telegram.png" alt="Иконка">
+          </div>
+          <div class="tab-text">
+              <h2>Telegram</h2>
+              <p>t.me/rahmatov_owner</p>
+          </div>
+      </a>
+
+      <a href="https://tiktok.com/zxc_insides" class="tab-item">
+          <div class="tab-image" style="background-color: rgba(95, 80, 80, 0.5);">
+              <img src="assets/tiktok.png" alt="Иконка">
+          </div>
+          <div class="tab-text">
+              <h2>TikTok</h2>
+              <p>tiktok.com/zxc_insides</p>
+          </div>
+      </a>
+
+      <a href="https://github.com/rahmatovokay" class="tab-item">
+          <div class="tab-image" style="background-color: rgba(121, 118, 118, 0.5);">
+              <img src="assets/github.png" alt="Иконка">
+          </div>
+          <div class="tab-text">
+              <h2>GitHub</h2>
+              <p>github.com/rahmatovokay</p>
+          </div>
+      </a>
+    </div>
+
+
+    <div class="tab-content" id="other" style="display: none;">
+      <a href="https://t.me/RahmatovMOD" class="tab-item">
+          <div class="tab-image" style="background-color: rgba(127, 17, 224, 0.2);">
+              <img src="assets/channel.png" alt="Иконка">
+          </div>
+          <div class="tab-text">
+              <h2>Канал</h2>
+              <p>t.me/RahmatovMOD</p>
+          </div>
+      </a>
+
+      <a href="https://t.me/RahmatovMOD_bot" class="tab-item">
+          <div class="tab-image" style="background-color: rgba(72, 107, 221, 0.2);">
+              <img src="assets/bot.png" alt="Иконка">
+          </div>
+          <div class="tab-text">
+              <h2>Бизнес Бот</h2>
+              <p>t.me/RahmatovMOD_bot</p>
+          </div>
+      </a>
+
+      <a href="https://t.me/RahmatovSHOP_bot" class="tab-item">
+          <div class="tab-image" style="background-color: rgba(47, 68, 9, 0.2);">
+              <img src="assets/star.png" alt="Иконка">
+          </div>
+          <div class="tab-text">
+              <h2>Магазин звёзд</h2>
+              <p>t.me/RahmatovSHOP_bot</p>
+          </div>
+      </a>
+    </div>
+
+  <a class="source" href="https://github.com/rahmatovokay/Bio-Website">Исходный код на GitHub</a>
+
+  </div>
+
+  <script>
+    const tabs = document.querySelectorAll(".tab");
+    const contents = document.querySelectorAll(".tab-content");
+
+    tabs.forEach(tab => {
+        tab.addEventListener("click", () => {
+            tabs.forEach(t => t.classList.remove("active"));
+            contents.forEach(c => c.style.display = "none");
+
+            tab.classList.add("active");
+            const tabId = tab.getAttribute("data-tab");
+            document.getElementById(tabId).style.display = "block";
+        });
+    });
+  </script>
+</body>
+</html>
